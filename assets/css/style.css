@@ -1,0 +1,47 @@
+* {
+
+}
+
+body {
+
+}
+
+/* style nav bar so options are horizontal at top */
+
+/* about me header then pic on left side, paragraph on right */
+
+/* life dream aside on right of about me */
+
+/* 
+## MY WORK SECTION ## 
+
+projects 1-3 go from left to right
+
+project 1 have largest pic
+
+pics/links highlight when hovering
+*/
+
+/* contact me - */
+
+/* SM links - icons lined horizonal */
+
+/* MEDIA QUEREY changes */
+
+/* tablet (small desktop): 
+
+about me - paragraph now below pic
+
+my work - project 1 (left & largest) with description below, project 2 & 3 pic on left with descrption on right & projects stacked
+
+social media links- vertically listed
+*/
+
+/* phone/mobile:
+
+nav - vertically stacked
+
+evrything else stacked
+about me, pic, paragraph, dream, my work, projects, pic, description, contact me, sm links (2 then 1)
+
+*/
