@@ -1,14 +1,15 @@
 * {
   box-sizing: border-box;
-  background-color: var(--grey);
+  background-color: var(--grey-pink);
 }
 
 :root {
- --grey: #cacfd6;
- --light-grey: #d6e5e3;
- --light-green: #9fd8cb;
- --green: #517664;
- --dark-green: #2d3319;
+ --grey-pink: #f7edf0;
+ --light-pink: #f4cbc6;
+ --pink: #f4afab;
+ --blue: #577590;
+ --green: #a6b29d;
+ --yellow: #f4eea9;
 }
 
 body {
@@ -22,15 +23,27 @@ body {
   justify-content: space-evenly;
   padding: 8px 0 8px 0;
   font-size: 150%;
-  border-bottom: 2px solid var(--green);
+  border-bottom: 2px solid var(--pink);
 }
 
 a {
     text-decoration: none;
-    color: var(--dark-green);
+    color: var(--blue);
 }
 
-/* style nav bar so options are horizontal at top */
+#about-me * { 
+    background-color: var(--yellow);
+}
+
+#about-me {
+    border: 4px solid var(--pink);
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 300%;
+    color: var(--blue)
+}
 
 /* about me header then pic on left side, paragraph on right */
 
