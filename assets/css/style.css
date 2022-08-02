@@ -4,12 +4,12 @@
 }
 
 :root {
- --grey-pink: #f7edf0;
- --light-pink: #f4cbc6;
- --pink: #f4afab;
- --blue: #577590;
- --green: #a6b29d;
- --yellow: #f4eea9;
+  --grey-pink: #f7edf0;
+  --light-pink: #f4cbc6;
+  --pink: #f4afab;
+  --blue: #577590;
+  --green: #a6b29d;
+  --yellow: #f4eea9;
 }
 
 body {
@@ -27,22 +27,38 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: var(--blue);
-}
-
-#about-me * { 
-    background-color: var(--yellow);
+  text-decoration: none;
+  color: var(--blue);
 }
 
 #about-me {
-    border: 4px solid var(--pink);
-    display: flex;
-    flex-direction: column;
+  border-bottom: 2px solid var(--pink);
+  display: flex;
+  flex-wrap: wrap;
 }
+
 h1 {
-    font-size: 300%;
-    color: var(--blue)
+  font-size: 300%;
+  color: var(--blue);
+}
+
+.div-left {
+  width: 600px;
+}
+
+.div-left img {
+  width: 600px;
+  height: 800px;
+}
+
+.div-right {
+  min-width: 0;
+  max-width: 600px;
+}
+
+#about-me h2 {
+  font-size: 200%;
+  color: var(--blue);
 }
 
 /* about me header then pic on left side, paragraph on right */
