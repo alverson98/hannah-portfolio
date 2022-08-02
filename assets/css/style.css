@@ -32,33 +32,60 @@ a {
 }
 
 #about-me {
-  border-bottom: 2px solid var(--pink);
   display: flex;
   flex-wrap: wrap;
-}
-
-h1 {
-  font-size: 300%;
-  color: var(--blue);
+  margin-top: 5%;
+  justify-content: space-evenly;
+  border-bottom: 2px solid var(--pink);
 }
 
 .div-left {
-  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  align-content: center;
+  padding: 0 0 3% 3%;
+}
+
+.div-left h1 {
+  font-size: 4rem;
+  color: var(--blue);
+  max-width: 100%;
+  margin-bottom: 4%;
 }
 
 .div-left img {
-  width: 600px;
-  height: 800px;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  border: 10px solid var(--green);
+  padding: 4% 4%;
 }
 
 .div-right {
-  min-width: 0;
-  max-width: 600px;
+  max-width: 50%;
+  padding: 0 3% 0 3%;
 }
 
-#about-me h2 {
-  font-size: 200%;
+.div-right h2 {
+  font-size: 2.5rem;
   color: var(--blue);
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.div-right p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.div-right .fun-fact {
+  color: var(--green);
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+  margin-top: 8%;
 }
 
 /* about me header then pic on left side, paragraph on right */
