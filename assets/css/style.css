@@ -1,9 +1,33 @@
 * {
+  box-sizing: border-box;
+  background-color: var(--grey);
+}
 
+:root {
+ --grey: #cacfd6;
+ --light-grey: #d6e5e3;
+ --light-green: #9fd8cb;
+ --green: #517664;
+ --dark-green: #2d3319;
 }
 
 body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 8px 0 8px 0;
+  font-size: 150%;
+  border-bottom: 2px solid var(--green);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-green);
 }
 
 /* style nav bar so options are horizontal at top */
