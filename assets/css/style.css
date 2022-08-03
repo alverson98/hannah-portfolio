@@ -97,6 +97,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  border-bottom: 2px solid var(--pink);
 }
 
 #my-work h2 {
@@ -159,16 +160,54 @@ a {
 .project p {
 }
 
-/* 
-## MY WORK SECTION ## 
+/* Need to add highlight when hovering over project imgs */
 
-project 1 have largest pic
+#my-work img:hover {
+}
 
-pics/links highlight when hovering
-*/
+/* ## CONTACT SECTION ## */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-/* contact me - */
+#contact-me {
+  max-width: 50%;
+}
 
+#contact-me h2 {
+  font-size: 2.5rem;
+  color: var(--blue);
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.label {
+font-size: 1.3rem;
+color: var(--blue);
+font-weight: bold;
+margin: 2% 0 2% 0;
+}
+
+.text input, .text textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  border: 2px solid var(--blue);
+  background-color: var(--yellow);
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  float: right;
+  margin-top: 8px;
+}
 /* SM links - icons lined horizonal */
 
 /* MEDIA QUEREY changes */

@@ -64,30 +64,44 @@
         </div>
       </section>
       <!-- ## CONTACT ME SECTION ## -->
-      <section id="contact-me">
-        <h2>Contact Me</h2>
-        <!-- Full name input -->
-        <p>
-          <label for="name"> Full Name:</label>
-          <input id="name" type="text" placeholder="Fist Last">
-        </p>
-        <!-- Email input -->
-        <p>
-          <label for="email"> Email:</label>
-          <input id="email" type="email" placeholder="someone@example.com">
-        </p>
-        <!-- Message input -->
-        <p>
-          <label for="message"> Message:</label>
-          <textarea id="message" type="text" placeholder="Type your message here" rows="5" cols="40"></textarea>
-        </p>
-        <button>Submit</button>
-        <!-- ## SOCIAL MEDIA LINKS ## aside (on left of contact me) -->
+      <div class="contact">
+        <section id="contact-me">
+          <h2>Contact Me</h2>
+          <!-- Full name input -->
+          <p class="form">
+            <div class="label">
+                <label for="name">Full Name:</label>
+            </div>
+            <div class="text">
+                <input type="text" placeholder="First Last">
+            </div>
+          </p>
+            <!-- Email input -->
+          <p class="form">
+              <div class="label">
+                <label for="email">Email:</label>
+            </div>
+            <div class="text">
+                <input type="text" placeholder="someone@example.com">
+            </div>
+          </p>
+          <!-- Message input -->
+          <p class="form">
+            <div class="label">
+                <label for="message">Message:</label>
+            </div>
+            <div class="text">
+                <textarea type="text" placeholder="Type your message here" style="resize: none;" rows="10" cols="1000"></textarea>
+            </div>
+          </p>
+              <button>Submit</button>
+        </section>
+      <!-- ## SOCIAL MEDIA LINKS ## aside (on left of contact me) -->
         <aside>
           <h3>Social Links</h3>
-          <!-- Include: linkedin, github, & emails (as icons) -->
+            <!-- Include: linkedin, github, & emails (as icons) -->
         </aside>
-      </section>
+    </div>
     </main>
     <!-- ## FOOTER SECTION ## -->
     <footer>
