@@ -62,16 +62,14 @@ a {
 }
 
 .div-left img {
-  height: auto;
-  width: auto;
-  max-width: 100%;
+  width: 100%;
   border: 10px solid var(--green);
   padding: 4% 4%;
 }
 
 /* About me heading & paragraph (inclu. fun fact) */
 .div-right {
-  max-width: 50%;
+  width: 50%;
   padding: 0 3% 0 3%;
 }
 
@@ -100,6 +98,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 5%;
   border-bottom: 2px solid var(--pink);
 }
 
@@ -112,7 +111,7 @@ a {
 
 /*  Glass Animals */
 .project1 {
-  max-width: 100%;
+  width: 100%;
   margin: 0 3% 0% 3%;
 }
 
@@ -122,25 +121,28 @@ a {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  padding: 12px 0 10px 0;
 }
 
 .project1 img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
+  width: 100%;
   padding: 1% 1%;
   border: 8px solid var(--blue);
   margin-bottom: 1%;
 }
 
-.project1 p {
-  font-size: 1.25rem;
+#my-work p {
+  background-color: var(--yellow);
+  color: var(--blue);
+  font-size: 1.2rem;
   text-align: center;
+  padding: 8px 0 8px 0;
+  border: 3px solid var(--blue);
 }
 
 /* Horiseon & placeholder */
 .project {
-  max-width: 50%;
+  width: 50%;
   margin-top: 5%;
 }
 
@@ -154,13 +156,10 @@ a {
 
 .project img {
   height: auto;
-  width: auto;
-  max-width: 100%;
+  width: 100%;
   padding: 2% 2%;
   border: 5px solid var(--blue);
-}
-
-.project p {
+  margin-bottom: 2%;
 }
 
 #my-work img:hover {
@@ -175,7 +174,7 @@ a {
 }
 
 #contact-me {
-  max-width: 75%;
+  width: 75%;
 }
 
 #contact-me h2 {
@@ -216,7 +215,7 @@ button {
 /* !! ASIDE CONTENT !! */
 
 .aside {
-  max-width: 25%;
+  width: 25%;
 }
 
 .aside h3 {
@@ -244,7 +243,6 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .nav-bar,
   .div-left,
   .div-right,
   .project1,
