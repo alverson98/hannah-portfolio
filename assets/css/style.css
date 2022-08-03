@@ -18,7 +18,6 @@ body {
 }
 
 /* !! NAV BAR !! */
-
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -172,7 +171,7 @@ a {
 }
 
 #contact-me {
-  max-width: 50%;
+  max-width: 75%;
 }
 
 #contact-me h2 {
@@ -208,7 +207,29 @@ button {
   float: right;
   margin-top: 8px;
 }
-/* SM links - icons lined horizonal */
+
+/* !! ASIDE CONTENT !! */
+
+.aside {
+  max-width: 25%;
+}
+
+.aside h3 {
+  font-size: 2rem;
+  color: var(--blue);
+  text-align: center;
+}
+
+.fa {
+  background-color: var(--blue);
+  color: white;
+  padding: 20px;
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+
+}
 
 /* MEDIA QUEREY changes */
 
