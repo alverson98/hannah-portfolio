@@ -27,6 +27,10 @@ body {
   border-bottom: 2px solid var(--pink);
 }
 
+.nav-bar li:hover {
+  opacity: .5;
+  }
+
 a {
   text-decoration: none;
   color: var(--blue);
@@ -157,9 +161,9 @@ a {
 .project p {
 }
 
-/* Need to add highlight when hovering over project imgs */
 
 #my-work img:hover {
+opacity: .5;
 }
 
 /* ## CONTACT SECTION ## */
